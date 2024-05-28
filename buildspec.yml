@@ -6,9 +6,8 @@ phases:
       nodejs: 18
    
     commands:
-        - echo Installing source NPM dependencies...
+        - install npm
         - npm install
-        - cp .env.development .env.production.local
        
   build:
     commands:
