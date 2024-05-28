@@ -7,12 +7,10 @@ phases:
    
     commands:
         # install npm
-        - apt update && apt install -y npm
+        - install npm
        
   build:
     commands:
-        # Install project dependencies
-        - npm install
         # run build script
         - npm run build
      
