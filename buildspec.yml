@@ -7,7 +7,7 @@ phases:
    
     commands:
         # install npm
-        - install npm
+        - "sudo apt install npm"
        
   build:
     commands:
